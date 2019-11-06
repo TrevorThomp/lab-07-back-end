@@ -17,7 +17,6 @@ app.use(cors());
 app.get('/', homePage);
 app.get('/location', handleLocation);
 app.get('/weather', handleWeather);
-app.get('/events', handleEvent);
 
 function homePage(request,response) {
   response.status(200).send('Welcome to the Home Page!');
@@ -51,20 +50,7 @@ function handleWeather(request, response) {
     });
 }
 
-function handleEvent(request,response) {
-  const url ``;
-
-  superagent.get(url)
-    then.(data => {
-
-    })
-}
-
 // Weather Constructor Function
-function Event(event) {
-
-}
-
 function Weather(day) {
   this.forecast = day.summary;
   this.time = new Date(day.time * 1000).toDateString();
@@ -73,6 +59,7 @@ function Weather(day) {
 // Location Constructor Function
 function Location(city, geoData) {
   this.search_query = city;
+  this.formatted_query = geoData.formatted_address;
   this.formatted_query = geoData.results[0].formatted_address;
   this.latitude = geoData.results[0].geometry.location.lat;
   this.longitude = geoData.results[0].geometry.location.lng;
