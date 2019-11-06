@@ -53,13 +53,13 @@ Actual time needed to complete: 6 minutes to complete
 
 Number and name of feature: Weather
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 10 minutes
 
-Start time: 
+Start time: 9:26am
 
-Finish time: 
+Finish time: 9:30am
 
-Actual time needed to complete: 
+Actual time needed to complete: 4 minutes to complete
 
 ## Feature #4: EventBrite
 
