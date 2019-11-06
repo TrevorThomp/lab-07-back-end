@@ -29,13 +29,13 @@ This application design uses Express, Node.js, jQuery, JavaScript, HTML and CSS.
 
 Number and name of feature: Data Formatting
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 11:30
 
-Finish time: 
+Finish time: 1:00
 
-Actual time needed to complete: 
+Actual time needed to complete: 90 minutes
 
 ## Feature #2: Locations
 
@@ -43,11 +43,11 @@ Number and name of feature: Locations
 
 Estimate of time needed to complete: 
 
-Start time: 
+Start time: 8:00
 
-Finish time:
+Finish time: 8:30
 
-Actual time needed to complete: 
+Actual time needed to complete: 30 minutes
 
 ## Feature #3: Weather
 
@@ -55,9 +55,9 @@ Number and name of feature: Weather
 
 Estimate of time needed to complete: 
 
-Start time: 
+Start time: 8:30am
 
-Finish time: 
+Finish time: 10:50
 
 Actual time needed to complete: 
 
