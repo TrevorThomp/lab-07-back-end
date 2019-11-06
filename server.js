@@ -16,7 +16,8 @@ app.use(cors());
 // Routes
 app.get('/', homePage);
 app.get('/location', handleLocation);
-app.get('/weather', handleWeather)
+app.get('/weather', handleWeather);
+app.get('/events', handleEvent);
 
 function homePage(request,response) {
   response.status(200).send('Welcome to the Home Page!');
@@ -48,10 +49,22 @@ function handleWeather(request, response) {
     .catch( error => {
       errorHandler('So sorry, something went really wrong', request, response);
     });
+}
 
+function handleEvent(request,response) {
+  const url ``;
+
+  superagent.get(url)
+    then.(data => {
+
+    })
 }
 
 // Weather Constructor Function
+function Event(event) {
+
+}
+
 function Weather(day) {
   this.forecast = day.summary;
   this.time = new Date(day.time * 1000).toDateString();
