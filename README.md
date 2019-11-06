@@ -19,7 +19,9 @@ This application design uses Express, Node.js, jQuery, JavaScript, HTML and CSS.
 
 ## Change Log
 
+11-06-2019 9:22am - Application now includes functionality to display accurate weather data based on user input.
 
+11-06-2019 9:26am - Application now includes functionality to display accurate map data based on user input.
 
 ## Credits and Collaborations
   Mark Swearingen
@@ -60,15 +62,3 @@ Start time: 9:26am
 Finish time: 9:30am
 
 Actual time needed to complete: 4 minutes to complete
-
-## Feature #4: EventBrite
-
-Number and name of feature: EventBrite
-
-Estimate of time needed to complete: 
-
-Start time: 
-
-Finish time: 
-
-Actual time needed to complete: 
