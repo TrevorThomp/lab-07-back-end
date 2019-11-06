@@ -16,7 +16,7 @@ app.use(cors());
 // Routes
 app.get('/', homePage);
 app.get('/location', handleLocation);
-app.get('/weather', handleWeather)
+app.get('/weather', handleWeather);
 
 function homePage(request,response) {
   response.status(200).send('Welcome to the Home Page!');
@@ -48,7 +48,6 @@ function handleWeather(request, response) {
     .catch( error => {
       errorHandler('So sorry, something went really wrong', request, response);
     });
-
 }
 
 // Weather Constructor Function
@@ -60,6 +59,7 @@ function Weather(day) {
 // Location Constructor Function
 function Location(city, geoData) {
   this.search_query = city;
+  this.formatted_query = geoData.formatted_address;
   this.formatted_query = geoData.results[0].formatted_address;
   this.latitude = geoData.results[0].geometry.location.lat;
   this.longitude = geoData.results[0].geometry.location.lng;
