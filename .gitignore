@@ -3,6 +3,7 @@
 
 ### dotenv ###
 .env
+package-lock.json
 
 ### Node ###
 # Logs
