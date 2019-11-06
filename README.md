@@ -24,8 +24,9 @@ This application design uses Express, Node.js, jQuery, JavaScript, HTML and CSS.
 11-06-2019 9:26am - Application now includes functionality to display accurate map data based on user input.
 
 ## Credits and Collaborations
-  Mark Swearingen
-  Trevor Thompson
+ 1. Mark Swearingen
+ 2. Trevor Thompson
+ 3. Travis Skyles
 
 ## Feature #1: Data Formatting
 
